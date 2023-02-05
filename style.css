@@ -1,0 +1,106 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.icon{
+    padding-left: 10%;
+}
+
+.icon p{
+    color: white;
+    font-size: 30px;
+}
+
+.nav-btns{
+    display: flex;
+    justify-content: space-between;
+    width : 30%;
+    padding-right: 10%;
+}
+
+.nav-btns button{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.main-background{
+    position: relative;
+}
+
+.main-background img{
+    max-height: 100vh;
+    min-width: 100%;
+    opacity: .6;
+}
+
+.overlay-main{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.overlay-main h1{
+    font-size: 50px;
+}
+
+.overlay-main p{
+    font-size: 30px;
+    max-width: 50%;
+}
+
+.overlay-main button{
+    width: 20%;
+    height: 70px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.sections{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.about-sec{
+    background-color: #ABC270;
+}
+
+.services-sec{
+    background-color: #FDA769;
+}
+
+.tours-sec{
+    background-color: #473C33;
+}
