@@ -6,6 +6,12 @@ const tours2_btn = document.getElementById("explore-tours");
 const about_sec = document.getElementsByClassName("about-sec");
 const services_sec = document.getElementsByClassName("services-sec");
 const tours_sec = document.getElementsByClassName("tours-sec");
+const top_page = document.getElementsByClassName("top-page");
+const nav_bar = document.getElementsByClassName("nav-bar");
+
+const about_section = about_sec[0].offsetTop;
+console.log(about_section);
+
 
 
 home_btn.onclick = function(){goTo_home_section()};
@@ -14,9 +20,11 @@ services_btn.onclick = function(){goTo_services_section()};
 tours_btn.onclick = function(){goTo_tours_section()};
 tours2_btn.onclick = function(){goTo_tours_section()};
 
+window.scrollBy(10, 0);
+
 function goTo_home_section(){
     console.log("Home Section");
-    window.scrollTo(0, 0);
+    top_page[0].scrollIntoView({behavior: 'smooth'});
 }
 
 function goTo_about_section(){

@@ -10,7 +10,7 @@ html, body{
 .nav-bar{
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: 10vh;
     top: 0;
     display: flex;
     justify-content: space-around;
@@ -18,10 +18,6 @@ html, body{
     padding-left: 20px;
     background-color: transparent;
     z-index: 1;
-}
-
-.icon{
-    padding-left: 10%;
 }
 
 .icon p{
@@ -33,7 +29,6 @@ html, body{
     display: flex;
     justify-content: space-between;
     width : 30%;
-    padding-right: 10%;
 }
 
 .nav-btns button{
@@ -75,7 +70,7 @@ html, body{
 }
 
 .overlay-main button{
-    width: 20%;
+    width: 40%;
     height: 70px;
     background-color: transparent;
     border: solid 2px white;
@@ -89,7 +84,7 @@ html, body{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     color: white;
 }
 
